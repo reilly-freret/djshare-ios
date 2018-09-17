@@ -1,0 +1,6 @@
+framework module Pods_DJ_Share {
+  umbrella header "Pods-DJ Share-umbrella.h"
+
+  export *
+  module * { export * }
+}

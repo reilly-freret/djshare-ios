@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C4E50F6E6C95C841653E331 /* Pods_DJ_ShareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC67DAA2B1E967E877C8B61 /* Pods_DJ_ShareTests.framework */; };
+		AF660A26214F4683000204E2 /* create_party_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF660A25214F4683000204E2 /* create_party_controller.swift */; };
+		AF660A28214F468E000204E2 /* join_party_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF660A27214F468E000204E2 /* join_party_controller.swift */; };
+		AFF4620B214C9E26000B0D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4620A214C9E26000B0D46 /* AppDelegate.swift */; };
+		AFF46212214C9E29000B0D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF46211214C9E29000B0D46 /* Assets.xcassets */; };
+		AFF46215214C9E29000B0D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF46213214C9E29000B0D46 /* LaunchScreen.storyboard */; };
+		AFF46220214C9E29000B0D46 /* DJ_ShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4621F214C9E29000B0D46 /* DJ_ShareTests.swift */; };
+		AFF4622E214C9EE4000B0D46 /* landing_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4622D214C9EE4000B0D46 /* landing_controller.swift */; };
+		AFF46230214C9F98000B0D46 /* loading_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4622F214C9F98000B0D46 /* loading_view.swift */; };
+		AFF46234214CB5AA000B0D46 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF46233214CB5AA000B0D46 /* SpotifyiOS.framework */; };
+		AFF4623D214CC42E000B0D46 /* create_or_join_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4623C214CC42E000B0D46 /* create_or_join_view.swift */; };
+		AFF46240214CC7FE000B0D46 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4623F214CC7FE000B0D46 /* View.swift */; };
+		AFF46242214EEA21000B0D46 /* party_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF46241214EEA21000B0D46 /* party_controller.swift */; };
+		AFF46244214EEA28000B0D46 /* search_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF46243214EEA28000B0D46 /* search_controller.swift */; };
+		AFF46246214EEA34000B0D46 /* stream_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF46245214EEA34000B0D46 /* stream_controller.swift */; };
+		AFF46248214EEA3E000B0D46 /* library_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF46247214EEA3E000B0D46 /* library_controller.swift */; };
+		AFF4624A214EEB86000B0D46 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF46249214EEB86000B0D46 /* String.swift */; };
+		AFF4624C214EF28F000B0D46 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF4624B214EF28F000B0D46 /* Color.swift */; };
+		DE25330CCE76A76C31CE7C67 /* Pods_DJ_Share.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7653108185C6F8B9B813E5 /* Pods_DJ_Share.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFF4621C214C9E29000B0D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFF461FF214C9E26000B0D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFF46206214C9E26000B0D46;
+			remoteInfo = "DJ Share";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EC67DAA2B1E967E877C8B61 /* Pods_DJ_ShareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJ_ShareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7653108185C6F8B9B813E5 /* Pods_DJ_Share.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJ_Share.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82326CE33FDA37352C2E62AA /* Pods-DJ ShareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJ ShareTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJ ShareTests/Pods-DJ ShareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABBE7C009D242F3A7DF97134 /* Pods-DJ Share.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJ Share.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJ Share/Pods-DJ Share.debug.xcconfig"; sourceTree = "<group>"; };
+		AF660A25214F4683000204E2 /* create_party_controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = create_party_controller.swift; sourceTree = "<group>"; };
+		AF660A27214F468E000204E2 /* join_party_controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = join_party_controller.swift; sourceTree = "<group>"; };
+		AFF46207214C9E26000B0D46 /* DJ Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DJ Share.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF4620A214C9E26000B0D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFF46211214C9E29000B0D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFF46214214C9E29000B0D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFF46216214C9E29000B0D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF4621B214C9E29000B0D46 /* DJ ShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DJ ShareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF4621F214C9E29000B0D46 /* DJ_ShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJ_ShareTests.swift; sourceTree = "<group>"; };
+		AFF46221214C9E29000B0D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF4622D214C9EE4000B0D46 /* landing_controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landing_controller.swift; sourceTree = "<group>"; };
+		AFF4622F214C9F98000B0D46 /* loading_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loading_view.swift; sourceTree = "<group>"; };
+		AFF46233214CB5AA000B0D46 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		AFF46235214CB8D5000B0D46 /* DJ-Share-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DJ-Share-Bridging-Header.h"; sourceTree = "<group>"; };
+		AFF4623C214CC42E000B0D46 /* create_or_join_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = create_or_join_view.swift; sourceTree = "<group>"; };
+		AFF4623F214CC7FE000B0D46 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		AFF46241214EEA21000B0D46 /* party_controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = party_controller.swift; sourceTree = "<group>"; };
+		AFF46243214EEA28000B0D46 /* search_controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search_controller.swift; sourceTree = "<group>"; };
+		AFF46245214EEA34000B0D46 /* stream_controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stream_controller.swift; sourceTree = "<group>"; };
+		AFF46247214EEA3E000B0D46 /* library_controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = library_controller.swift; sourceTree = "<group>"; };
+		AFF46249214EEB86000B0D46 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		AFF4624B214EF28F000B0D46 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		B01CFB110CEAA4606C365914 /* Pods-DJ Share.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJ Share.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJ Share/Pods-DJ Share.release.xcconfig"; sourceTree = "<group>"; };
+		D5E8D0C39973F8E894759BDA /* Pods-DJ ShareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJ ShareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJ ShareTests/Pods-DJ ShareTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFF46204214C9E26000B0D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE25330CCE76A76C31CE7C67 /* Pods_DJ_Share.framework in Frameworks */,
+				AFF46234214CB5AA000B0D46 /* SpotifyiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF46218214C9E29000B0D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4E50F6E6C95C841653E331 /* Pods_DJ_ShareTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		257A1A464E04BA9FC281D34E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE7C009D242F3A7DF97134 /* Pods-DJ Share.debug.xcconfig */,
+				B01CFB110CEAA4606C365914 /* Pods-DJ Share.release.xcconfig */,
+				82326CE33FDA37352C2E62AA /* Pods-DJ ShareTests.debug.xcconfig */,
+				D5E8D0C39973F8E894759BDA /* Pods-DJ ShareTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2EC7F895880F54A4C6561ED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C7653108185C6F8B9B813E5 /* Pods_DJ_Share.framework */,
+				3EC67DAA2B1E967E877C8B61 /* Pods_DJ_ShareTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFF461FE214C9E26000B0D46 = {
+			isa = PBXGroup;
+			children = (
+				AFF46235214CB8D5000B0D46 /* DJ-Share-Bridging-Header.h */,
+				AFF46233214CB5AA000B0D46 /* SpotifyiOS.framework */,
+				AFF46209214C9E26000B0D46 /* DJ Share */,
+				AFF4621E214C9E29000B0D46 /* DJ ShareTests */,
+				AFF46208214C9E26000B0D46 /* Products */,
+				257A1A464E04BA9FC281D34E /* Pods */,
+				2EC7F895880F54A4C6561ED8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFF46208214C9E26000B0D46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFF46207214C9E26000B0D46 /* DJ Share.app */,
+				AFF4621B214C9E29000B0D46 /* DJ ShareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFF46209214C9E26000B0D46 /* DJ Share */ = {
+			isa = PBXGroup;
+			children = (
+				AFF4622C214C9EA8000B0D46 /* controllers */,
+				AFF4622B214C9EA4000B0D46 /* views */,
+				AFF4622A214C9E88000B0D46 /* models */,
+				AFF4620A214C9E26000B0D46 /* AppDelegate.swift */,
+				AFF46211214C9E29000B0D46 /* Assets.xcassets */,
+				AFF46213214C9E29000B0D46 /* LaunchScreen.storyboard */,
+				AFF46216214C9E29000B0D46 /* Info.plist */,
+			);
+			path = "DJ Share";
+			sourceTree = "<group>";
+		};
+		AFF4621E214C9E29000B0D46 /* DJ ShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFF4621F214C9E29000B0D46 /* DJ_ShareTests.swift */,
+				AFF46221214C9E29000B0D46 /* Info.plist */,
+			);
+			path = "DJ ShareTests";
+			sourceTree = "<group>";
+		};
+		AFF4622A214C9E88000B0D46 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		AFF4622B214C9EA4000B0D46 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				AFF4622F214C9F98000B0D46 /* loading_view.swift */,
+				AFF4623C214CC42E000B0D46 /* create_or_join_view.swift */,
+				AFF4623E214CC7EB000B0D46 /* extensions */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		AFF4622C214C9EA8000B0D46 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFF4622D214C9EE4000B0D46 /* landing_controller.swift */,
+				AFF46241214EEA21000B0D46 /* party_controller.swift */,
+				AFF46243214EEA28000B0D46 /* search_controller.swift */,
+				AFF46245214EEA34000B0D46 /* stream_controller.swift */,
+				AFF46247214EEA3E000B0D46 /* library_controller.swift */,
+				AF660A25214F4683000204E2 /* create_party_controller.swift */,
+				AF660A27214F468E000204E2 /* join_party_controller.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		AFF4623E214CC7EB000B0D46 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AFF4623F214CC7FE000B0D46 /* View.swift */,
+				AFF46249214EEB86000B0D46 /* String.swift */,
+				AFF4624B214EF28F000B0D46 /* Color.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFF46206214C9E26000B0D46 /* DJ Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF46224214C9E29000B0D46 /* Build configuration list for PBXNativeTarget "DJ Share" */;
+			buildPhases = (
+				8871D7107C1DB8113F383C31 /* [CP] Check Pods Manifest.lock */,
+				AFF46203214C9E26000B0D46 /* Sources */,
+				AFF46204214C9E26000B0D46 /* Frameworks */,
+				AFF46205214C9E26000B0D46 /* Resources */,
+				3BC718DE062FA4DFD6A6400A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DJ Share";
+			productName = "DJ Share";
+			productReference = AFF46207214C9E26000B0D46 /* DJ Share.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFF4621A214C9E29000B0D46 /* DJ ShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF46227214C9E29000B0D46 /* Build configuration list for PBXNativeTarget "DJ ShareTests" */;
+			buildPhases = (
+				5DA1ECD76E73EE9B47134657 /* [CP] Check Pods Manifest.lock */,
+				AFF46217214C9E29000B0D46 /* Sources */,
+				AFF46218214C9E29000B0D46 /* Frameworks */,
+				AFF46219214C9E29000B0D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFF4621D214C9E29000B0D46 /* PBXTargetDependency */,
+			);
+			name = "DJ ShareTests";
+			productName = "DJ ShareTests";
+			productReference = AFF4621B214C9E29000B0D46 /* DJ ShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFF461FF214C9E26000B0D46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Reilly Freret";
+				TargetAttributes = {
+					AFF46206214C9E26000B0D46 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AFF4621A214C9E29000B0D46 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AFF46206214C9E26000B0D46;
+					};
+				};
+			};
+			buildConfigurationList = AFF46202214C9E26000B0D46 /* Build configuration list for PBXProject "DJ Share" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFF461FE214C9E26000B0D46;
+			productRefGroup = AFF46208214C9E26000B0D46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF46206214C9E26000B0D46 /* DJ Share */,
+				AFF4621A214C9E29000B0D46 /* DJ ShareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFF46205214C9E26000B0D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF46215214C9E29000B0D46 /* LaunchScreen.storyboard in Resources */,
+				AFF46212214C9E29000B0D46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF46219214C9E29000B0D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BC718DE062FA4DFD6A6400A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DJ Share/Pods-DJ Share-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/PusherSwift/PusherSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/TaskQueue/TaskQueue.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PusherSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TaskQueue.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJ Share/Pods-DJ Share-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DA1ECD76E73EE9B47134657 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DJ ShareTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8871D7107C1DB8113F383C31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DJ Share-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFF46203214C9E26000B0D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF4624A214EEB86000B0D46 /* String.swift in Sources */,
+				AFF4623D214CC42E000B0D46 /* create_or_join_view.swift in Sources */,
+				AFF4624C214EF28F000B0D46 /* Color.swift in Sources */,
+				AFF46246214EEA34000B0D46 /* stream_controller.swift in Sources */,
+				AFF46230214C9F98000B0D46 /* loading_view.swift in Sources */,
+				AFF46242214EEA21000B0D46 /* party_controller.swift in Sources */,
+				AFF46240214CC7FE000B0D46 /* View.swift in Sources */,
+				AF660A28214F468E000204E2 /* join_party_controller.swift in Sources */,
+				AFF4620B214C9E26000B0D46 /* AppDelegate.swift in Sources */,
+				AFF46248214EEA3E000B0D46 /* library_controller.swift in Sources */,
+				AFF46244214EEA28000B0D46 /* search_controller.swift in Sources */,
+				AFF4622E214C9EE4000B0D46 /* landing_controller.swift in Sources */,
+				AF660A26214F4683000204E2 /* create_party_controller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF46217214C9E29000B0D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF46220214C9E29000B0D46 /* DJ_ShareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFF4621D214C9E29000B0D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFF46206214C9E26000B0D46 /* DJ Share */;
+			targetProxy = AFF4621C214C9E29000B0D46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFF46213214C9E29000B0D46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF46214214C9E29000B0D46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFF46222214C9E29000B0D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFF46223214C9E29000B0D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFF46225214C9E29000B0D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBE7C009D242F3A7DF97134 /* Pods-DJ Share.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQYA2A8JRS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "DJ Share/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"FLAnimatedImage\"",
+					"-framework",
+					"\"PusherSwift\"",
+					"-framework",
+					"\"Reachability\"",
+					"-framework",
+					"\"Starscream\"",
+					"-framework",
+					"\"TaskQueue\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freret.DJ-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DJ-Share-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFF46226214C9E29000B0D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01CFB110CEAA4606C365914 /* Pods-DJ Share.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQYA2A8JRS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "DJ Share/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"FLAnimatedImage\"",
+					"-framework",
+					"\"PusherSwift\"",
+					"-framework",
+					"\"Reachability\"",
+					"-framework",
+					"\"Starscream\"",
+					"-framework",
+					"\"TaskQueue\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freret.DJ-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DJ-Share-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFF46228214C9E29000B0D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82326CE33FDA37352C2E62AA /* Pods-DJ ShareTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQYA2A8JRS;
+				INFOPLIST_FILE = "DJ ShareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freret.DJ-ShareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJ Share.app/DJ Share";
+			};
+			name = Debug;
+		};
+		AFF46229214C9E29000B0D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5E8D0C39973F8E894759BDA /* Pods-DJ ShareTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQYA2A8JRS;
+				INFOPLIST_FILE = "DJ ShareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.freret.DJ-ShareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJ Share.app/DJ Share";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFF46202214C9E26000B0D46 /* Build configuration list for PBXProject "DJ Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF46222214C9E29000B0D46 /* Debug */,
+				AFF46223214C9E29000B0D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF46224214C9E29000B0D46 /* Build configuration list for PBXNativeTarget "DJ Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF46225214C9E29000B0D46 /* Debug */,
+				AFF46226214C9E29000B0D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF46227214C9E29000B0D46 /* Build configuration list for PBXNativeTarget "DJ ShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF46228214C9E29000B0D46 /* Debug */,
+				AFF46229214C9E29000B0D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFF461FF214C9E26000B0D46 /* Project object */;
+}
